@@ -1,4 +1,4 @@
-package com.example.testforinitiumgroup;
+package com.stat1kDev.testforinitiumgroup;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

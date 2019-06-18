@@ -1,5 +1,6 @@
-package com.example.testforinitiumgroup;
+package com.stat1kDev.testforinitiumgroup;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         initWebView();
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     public void initWebView() {
         webView = findViewById(R.id.webView);
         webView.setWebViewClient(new MyWebViewClient());

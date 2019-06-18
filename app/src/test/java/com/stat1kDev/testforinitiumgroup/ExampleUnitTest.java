@@ -1,4 +1,4 @@
-package com.example.testforinitiumgroup;
+package com.stat1kDev.testforinitiumgroup;
 
 import org.junit.Test;
 
